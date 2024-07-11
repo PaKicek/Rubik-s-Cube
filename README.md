@@ -1,5 +1,5 @@
 # Rubik's Cube
-Formely an 8th labwork of C/C++ course (2nd semester, 3-4 stream)
+An 8th labwork of C/C++ course (2nd semester, 3-4 stream)
 
 This project was compiled with the use of CMake in Visual Studio Code. For build, do these steps:
 1. Clone a repository
