@@ -1,4 +1,4 @@
-# Rubik-s-Cube
+# Rubik's Cube
 Formely an 8th labwork of C/C++ course (2nd semester, 3-4 stream)
 
 This project was compiled using CMake in Visual Studio Code. For build, do these steps:
