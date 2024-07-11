@@ -1,0 +1,270 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib-Debug-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib"
+				},
+				{
+					"build" : "lib/glew-cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew-cmake-Debug-c17346100f56fb29a4b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glew-cmake",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-Debug-8f8e272a3ac25f7ac5d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-Debug-ebfa7c714e8b63b863ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw/docs",
+					"jsonFile" : "directory-lib.glfw.docs-Debug-2b4d350e26b89cca1912.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "lib/glfw/docs"
+				},
+				{
+					"build" : "lib/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-lib.glm-Debug-fc5ae29a04ce9baa3066.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "lib/glm"
+				},
+				{
+					"build" : "lib/glm/glm",
+					"jsonFile" : "directory-lib.glm.glm-Debug-f071b44a10c565ea5540.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "lib/glm/glm",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lab_8",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-Debug-183007d3d6bc93d324bb.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glm::@ff40cfcfb06a0006160e",
+					"jsonFile" : "target-glm-Debug-c968e914b43a2cc5c7e3.json",
+					"name" : "glm",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libglew_shared::@719e5758176ee44b82ab",
+					"jsonFile" : "target-libglew_shared-Debug-6c9d84229eaef7ba6774.json",
+					"name" : "libglew_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libglew_static::@719e5758176ee44b82ab",
+					"jsonFile" : "target-libglew_static-Debug-36b84ff3c3de5d8c66df.json",
+					"name" : "libglew_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-54311c9673c9ad71daea.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-Debug-3cbb0f33dca43c78e968.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-Debug-eb07f2229391a97ce3a5.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/Projects/C++ labs/Rubik-s-Cube/build",
+		"source" : "/home/user/Projects/C++ labs/Rubik-s-Cube"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
